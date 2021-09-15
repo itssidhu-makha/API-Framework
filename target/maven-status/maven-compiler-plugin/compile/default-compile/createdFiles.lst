@@ -1,0 +1,10 @@
+test\com\objects\HTTPCodes.class
+test\com\objects\CleaningSessions.class
+test\com\controller\ExtentUtils.class
+test\com\tests\cleaningsessions\PositiveTests.class
+test\com\data\cleaning\PositiveDataProviders.class
+test\com\tests\cleaningsessions\ErrorTests.class
+test\com\controller\Runner.class
+test\com\data\cleaning\NegativeDataProviders.class
+test\com\tests\cleaningsessions\NegativeTests.class
+test\com\data\cleaning\ErrorsData.class

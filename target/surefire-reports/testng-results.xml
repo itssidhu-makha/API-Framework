@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="92" total="106" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Robot Cleaning Suite" duration-ms="3210" started-at="2021-09-15T21:20:57 BST" finished-at="2021-09-15T21:21:00 BST">
+    <groups>
+      <group name="cleaning-positive">
+        <method signature="PositiveTests.testBaseCase([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@396f6598]" name="testBaseCase" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.testRectangularRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@78e67e0a]" name="testRectangularRoom" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.testRoboAtDecimalPosition([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@4b553d26]" name="testRoboAtDecimalPosition" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.repeatedPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@2a556333]" name="repeatedPatchesTest" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.decimalPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@3dfc5fb8]" name="decimalPatchesTest" class="test.com.tests.cleaningsessions.PositiveTests"/>
+      </group> <!-- cleaning-positive -->
+      <group name="cleaning-negative">
+        <method signature="NegativeTests.negative_RoomSize([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6f195bc3]" name="negative_RoomSize" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.multi_roomDimensions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@631330c]" name="multi_roomDimensions" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.position_Yaxis_GTRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3d921e20]" name="position_Yaxis_GTRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.position_NegativeCoords([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@37d31475]" name="position_NegativeCoords" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.invalid_PositionDataTypes([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1d8d30f7]" name="invalid_PositionDataTypes" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.robo_MultiplePositions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@587d1d39]" name="robo_MultiplePositions" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.pathAtTopRightCornerOfRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6b9651f3]" name="pathAtTopRightCornerOfRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.robo_CannotClean_OutsideRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@7a9273a8]" name="robo_CannotClean_OutsideRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.timeStamp_InvalidTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="timeStamp_InvalidTest" class="test.com.tests.cleaningsessions.NegativeTests"/>
+      </group> <!-- cleaning-negative -->
+    </groups>
+    <test name="Base Test Positive Data" duration-ms="2368" started-at="2021-09-15T21:20:57 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@396f6598]" name="setReporter" is-config="true" duration-ms="13" started-at="2021-09-15T21:20:57 BST" finished-at="2021-09-15T21:20:57 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@479f2dc2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="testBaseCase([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@396f6598]" name="testBaseCase" duration-ms="2063" started-at="2021-09-15T21:20:57 BST" data-provider="baseData" finished-at="2021-09-15T21:20:59 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseCase -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@396f6598]" name="flushReporter" is-config="true" duration-ms="262" started-at="2021-09-15T21:20:59 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </test> <!-- Base Test Positive Data -->
+    <test name="Rectangular Room Test" duration-ms="88" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@78e67e0a]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@dab48d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="testRectangularRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@78e67e0a]" name="testRectangularRoom" duration-ms="51" started-at="2021-09-15T21:21:00 BST" data-provider="rectangleRoom" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6fd5717c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRectangularRoom -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@78e67e0a]" name="flushReporter" is-config="true" duration-ms="34" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </test> <!-- Rectangular Room Test -->
+    <test name="Intermidetiate Position Test" duration-ms="81" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@4b553d26]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58a2b4c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="testRoboAtDecimalPosition([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@4b553d26]" name="testRoboAtDecimalPosition" duration-ms="48" started-at="2021-09-15T21:21:00 BST" data-provider="positionDecimals" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7ce7e83c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRoboAtDecimalPosition -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@4b553d26]" name="flushReporter" is-config="true" duration-ms="32" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </test> <!-- Intermidetiate Position Test -->
+    <test name="Repeated Patches Test" duration-ms="77" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@2a556333]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7159a5cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="repeatedPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@2a556333]" name="repeatedPatchesTest" duration-ms="46" started-at="2021-09-15T21:21:00 BST" data-provider="repeatedPatches" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@23811a09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repeatedPatchesTest -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@2a556333]" name="flushReporter" is-config="true" duration-ms="30" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </test> <!-- Repeated Patches Test -->
+    <test name="Decimal Patches Test" duration-ms="78" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@3dfc5fb8]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4f966719]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="decimalPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@3dfc5fb8]" name="decimalPatchesTest" duration-ms="50" started-at="2021-09-15T21:21:00 BST" data-provider="decimalPatches" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@75e710b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decimalPatchesTest -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@3dfc5fb8]" name="flushReporter" is-config="true" duration-ms="26" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </test> <!-- Decimal Patches Test -->
+    <test name="Invaid Room Size Tests" duration-ms="56" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6f195bc3]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18ac53e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="negative_RoomSize([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6f195bc3]" name="negative_RoomSize" duration-ms="28" started-at="2021-09-15T21:21:00 BST" data-provider="roomSizeNil" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@31133b6e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_RoomSize -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6f195bc3]" name="flushReporter" is-config="true" duration-ms="24" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- Invaid Room Size Tests -->
+    <test name="Multi Dimensions Room" duration-ms="44" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@631330c]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ca8dbfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="multi_roomDimensions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@631330c]" name="multi_roomDimensions" duration-ms="16" started-at="2021-09-15T21:21:00 BST" data-provider="multiRoomDimension" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7de843ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi_roomDimensions -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@631330c]" name="flushReporter" is-config="true" duration-ms="25" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- Multi Dimensions Room -->
+    <test name="Y Location Outside Room" duration-ms="50" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3d921e20]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7063686f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="position_Yaxis_GTRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3d921e20]" name="position_Yaxis_GTRoom" duration-ms="25" started-at="2021-09-15T21:21:00 BST" data-provider="yOutsideRoom" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1b7cae6f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- position_Yaxis_GTRoom -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3d921e20]" name="flushReporter" is-config="true" duration-ms="23" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- Y Location Outside Room -->
+    <test name="Negative Position Test" duration-ms="37" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@37d31475]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c3177d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="position_NegativeCoords([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@37d31475]" name="position_NegativeCoords" duration-ms="17" started-at="2021-09-15T21:21:00 BST" data-provider="positionNegative" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@442f92e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- position_NegativeCoords -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@37d31475]" name="flushReporter" is-config="true" duration-ms="20" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- Negative Position Test -->
+    <test name="Invalid Data Types for Position Test" duration-ms="35" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1d8d30f7]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76f856a8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="invalid_PositionDataTypes([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1d8d30f7]" name="invalid_PositionDataTypes" duration-ms="15" started-at="2021-09-15T21:21:00 BST" data-provider="validDataTypesPosition" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@342726f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_PositionDataTypes -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1d8d30f7]" name="flushReporter" is-config="true" duration-ms="19" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- Invalid Data Types for Position Test -->
+    <test name="Robot Multiple Positions test" duration-ms="40" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="robo_MultiplePositions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@587d1d39]" name="robo_MultiplePositions" duration-ms="16" started-at="2021-09-15T21:21:00 BST" data-provider="roboAtMultiplePositions" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4ab550d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- robo_MultiplePositions -->
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@587d1d39]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c853486]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@587d1d39]" name="flushReporter" is-config="true" duration-ms="23" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- Robot Multiple Positions test -->
+    <test name="Robot Traversing TOP Right of the Room" duration-ms="66" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6b9651f3]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@174e1b69]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="pathAtTopRightCornerOfRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6b9651f3]" name="pathAtTopRightCornerOfRoom" duration-ms="15" started-at="2021-09-15T21:21:00 BST" data-provider="pathAtTopRightCornerOfRoom" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@65ec8b24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pathAtTopRightCornerOfRoom -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6b9651f3]" name="flushReporter" is-config="true" duration-ms="49" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- Robot Traversing TOP Right of the Room -->
+    <test name="Robot Instructed to clean Outside Room test" duration-ms="29" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="robo_CannotClean_OutsideRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@7a9273a8]" name="robo_CannotClean_OutsideRoom" duration-ms="13" started-at="2021-09-15T21:21:00 BST" data-provider="robo_CannotClean_OutsideRoom" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7aead3af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- robo_CannotClean_OutsideRoom -->
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@7a9273a8]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1046498a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@7a9273a8]" name="flushReporter" is-config="true" duration-ms="16" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- Robot Instructed to clean Outside Room test -->
+    <test name="TimeStamp Test" duration-ms="69" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <test-method status="PASS" signature="setRepoFolder()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="setRepoFolder" is-config="true" duration-ms="495" started-at="2021-09-15T21:20:57 BST" finished-at="2021-09-15T21:20:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRepoFolder -->
+        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@243f003c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="PASS" signature="timeStamp_InvalidTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="timeStamp_InvalidTest" duration-ms="38" started-at="2021-09-15T21:21:00 BST" data-provider="timeStamp_InvalidTest" finished-at="2021-09-15T21:21:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4038cd3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeStamp_InvalidTest -->
+        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="flushReporter" is-config="true" duration-ms="30" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </test> <!-- TimeStamp Test -->
+  </suite> <!-- Robot Cleaning Suite -->
+</testng-results>
