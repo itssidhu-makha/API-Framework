@@ -3,12 +3,7 @@ package test.com.tests.cleaningsessions;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.apache.http.HttpStatus;
-import org.testng.ITestContext;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import test.com.controller.Runner;
 import test.com.data.cleaning.NegativeDataProviders;
 
@@ -17,18 +12,6 @@ import java.util.Calendar;
 
 
 public class NegativeTests extends Runner {
-
-    @BeforeTest
-    public void setReporter(ITestContext context){
-
-        repo.setTest(context.getCurrentXmlTest().getName());
-    }
-
-    @AfterTest
-    public void flushReporter(){
-        repo.getReports().endTest(repo.getTest());
-        repo.getReports().flush();
-    }
 
 
 
@@ -43,7 +26,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_BAD_REQUEST)//over here as well we are verifying though
                     .extract().response();
 
 
@@ -66,7 +48,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_BAD_REQUEST)//over here as well we are verifying though
                     .extract().response();
 
 
@@ -89,7 +70,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_CREATED)//over here as well we are verifying though
                     .extract().response();
 
 
@@ -112,7 +92,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_BAD_REQUEST)//over here as well we are verifying though
                     .extract().response();
 
 
@@ -135,7 +114,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_CREATED)//over here as well we are verifying though
                     .extract().response();
 
 
@@ -158,7 +136,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_BAD_REQUEST)//over here as well we are verifying though
                     .extract().response();
 
 
@@ -181,7 +158,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_BAD_REQUEST)//over here as well we are verifying though
                     .extract().response();
 
 
@@ -204,7 +180,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_CREATED)//over here as well we are verifying though
                     .extract().response();
 
 
@@ -227,7 +202,6 @@ public class NegativeTests extends Runner {
                     .when()
                     .get(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_METHOD_NOT_ALLOWED)//over here as well we are verifying though
                     .extract().response();
 
 

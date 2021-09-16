@@ -10,12 +10,12 @@ import java.util.Calendar;
 
 public class ExtentUtils {
     private ThreadLocal<ExtentReports> reports=new ThreadLocal<>();
-
-    public ExtentReports getReports() {
+    private ThreadLocal<ExtentTest> test=new ThreadLocal<>();
+    public  ExtentReports getReports() {
         return reports.get();
     }
 
-    public void setReports() {
+    public  synchronized void  setReports() {
         SimpleDateFormat format = new SimpleDateFormat("MMddyyyy_HHmmss");
 
         String time =format.format(Calendar.getInstance().getTime());
@@ -23,16 +23,16 @@ public class ExtentUtils {
         reports.set(reporter);
     }
 
-    public ExtentTest getTest() {
+    public  ExtentTest getTest() {
         return test.get();
     }
 
-    public void setTest(String testName) {
-        this.test.set(getReports().startTest(testName));
+    public   void setTest(String testName) {
+        test.set(getReports().startTest(testName));
 
     }
 
-    private ThreadLocal<ExtentTest> test=new ThreadLocal<>();
+
     private ExtentUtils(){}
     public static ExtentUtils instance;
 
@@ -42,16 +42,22 @@ public class ExtentUtils {
         }
         return instance;
     }
-
-    public void reportPass(String message){
-        getTest().log(LogStatus.PASS,message);
+    public void removeThreadLocals(){
+        test.remove();
+        reports.remove();
     }
 
-    public void reportFail(String message){
-        getTest().log(LogStatus.FAIL,message);
+    public  void reportPass(String message){
+
+        ExtentUtils.getInstance().getTest().log(LogStatus.PASS,message);
     }
 
-    public void reportInfo(String message){
-        getTest().log(LogStatus.INFO,message);
+    public  void reportFail(String message){
+
+        ExtentUtils.getInstance().getTest().log(LogStatus.FAIL,message);
+    }
+
+    public  void reportInfo(String message){
+        ExtentUtils.getInstance().getTest().log(LogStatus.INFO,message);
     }
 }

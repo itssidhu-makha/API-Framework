@@ -1,4 +1,46 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.586 s - in TestSuite
+Tests run: 42, Failures: 14, Errors: 0, Skipped: 28, Time elapsed: 1.756 s <<< FAILURE! - in TestSuite
+test.com.tests.cleaningsessions.PositiveTests.setReporter[org.testng.TestRunner@7884031f](0)  Time elapsed: 1.3 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.PositiveTests.setReporter[org.testng.TestRunner@2dd8444f](0)  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.PositiveTests.setReporter[org.testng.TestRunner@66e9364d](0)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.PositiveTests.setReporter[org.testng.TestRunner@35f7f732](0)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.PositiveTests.setReporter[org.testng.TestRunner@65b0e151](0)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@352c6f9c](0)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@655595ef](0)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@497a7c86](0)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@7ab681ed](0)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@829e727](0)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@44c3c5ac](0)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@3c69e66f](0)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@105eb090](0)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.NullPointerException
+
+test.com.tests.cleaningsessions.NegativeTests.setReporter[org.testng.TestRunner@42006732](0)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+

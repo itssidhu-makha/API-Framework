@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Robot Cleaning Suite]" parallel="methods">
+  <test thread-count="2" verbose="0" name="Base Test Positive Data(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="testBaseCase"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </classes>
+  </test> <!-- Base Test Positive Data(failed) -->
+  <test thread-count="2" verbose="0" name="Rectangular Room Test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="testRectangularRoom"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </classes>
+  </test> <!-- Rectangular Room Test(failed) -->
+  <test thread-count="2" verbose="0" name="Intermidetiate Position Test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <methods>
+          <include name="testRoboAtDecimalPosition"/>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </classes>
+  </test> <!-- Intermidetiate Position Test(failed) -->
+  <test thread-count="2" verbose="0" name="Repeated Patches Test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="repeatedPatchesTest"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </classes>
+  </test> <!-- Repeated Patches Test(failed) -->
+  <test thread-count="2" verbose="0" name="Decimal Patches Test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.PositiveTests">
+        <methods>
+          <include name="decimalPatchesTest"/>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
+    </classes>
+  </test> <!-- Decimal Patches Test(failed) -->
+  <test thread-count="2" verbose="0" name="Invaid Room Size Tests(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="negative_RoomSize"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- Invaid Room Size Tests(failed) -->
+  <test thread-count="2" verbose="0" name="Multi Dimensions Room(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="multi_roomDimensions"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- Multi Dimensions Room(failed) -->
+  <test thread-count="2" verbose="0" name="Y Location Outside Room(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="position_Yaxis_GTRoom"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- Y Location Outside Room(failed) -->
+  <test thread-count="2" verbose="0" name="Negative Position Test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="position_NegativeCoords"/>
+          <include name="killThreadLocal"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- Negative Position Test(failed) -->
+  <test thread-count="2" verbose="0" name="Invalid Data Types for Position Test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="setRepoFolder"/>
+          <include name="invalid_PositionDataTypes"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- Invalid Data Types for Position Test(failed) -->
+  <test thread-count="2" verbose="0" name="Robot Multiple Positions test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="robo_MultiplePositions"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- Robot Multiple Positions test(failed) -->
+  <test thread-count="2" verbose="0" name="Robot Traversing TOP Right of the Room(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="pathAtTopRightCornerOfRoom"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- Robot Traversing TOP Right of the Room(failed) -->
+  <test thread-count="2" verbose="0" name="Robot Instructed to clean Outside Room test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="robo_CannotClean_OutsideRoom"/>
+          <include name="killThreadLocal"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- Robot Instructed to clean Outside Room test(failed) -->
+  <test thread-count="2" verbose="0" name="TimeStamp Test(failed)" parallel="methods">
+    <classes>
+      <class name="test.com.tests.cleaningsessions.NegativeTests">
+        <methods>
+          <include name="setReporter"/>
+          <include name="flushReporter"/>
+          <include name="killThreadLocal"/>
+          <include name="timeStamp_InvalidTest"/>
+          <include name="setRepoFolder"/>
+        </methods>
+      </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
+    </classes>
+  </test> <!-- TimeStamp Test(failed) -->
+</suite> <!-- Failed suite [Robot Cleaning Suite] -->

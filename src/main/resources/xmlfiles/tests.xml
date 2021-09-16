@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Robot Cleaning Suite" verbose="1" >
+<suite name="Robot Cleaning Suite" verbose="1"  >
 
     <test name="Base Test Positive Data">
         <classes>
@@ -8,7 +8,6 @@
                 <include name="testBaseCase" />
             </methods>
             </class>
-
         </classes>
     </test>
 

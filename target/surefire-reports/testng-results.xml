@@ -1,450 +1,1210 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="92" total="106" passed="14">
+<testng-results skipped="14" failed="0" ignored="92" total="106" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Robot Cleaning Suite" duration-ms="3210" started-at="2021-09-15T21:20:57 BST" finished-at="2021-09-15T21:21:00 BST">
+  <suite name="Robot Cleaning Suite" duration-ms="222" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
     <groups>
       <group name="cleaning-positive">
-        <method signature="PositiveTests.testBaseCase([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@396f6598]" name="testBaseCase" class="test.com.tests.cleaningsessions.PositiveTests"/>
-        <method signature="PositiveTests.testRectangularRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@78e67e0a]" name="testRectangularRoom" class="test.com.tests.cleaningsessions.PositiveTests"/>
-        <method signature="PositiveTests.testRoboAtDecimalPosition([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@4b553d26]" name="testRoboAtDecimalPosition" class="test.com.tests.cleaningsessions.PositiveTests"/>
-        <method signature="PositiveTests.repeatedPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@2a556333]" name="repeatedPatchesTest" class="test.com.tests.cleaningsessions.PositiveTests"/>
-        <method signature="PositiveTests.decimalPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@3dfc5fb8]" name="decimalPatchesTest" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.testBaseCase([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@394e1a0f]" name="testBaseCase" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.testRectangularRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@bd8db5a]" name="testRectangularRoom" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.testRoboAtDecimalPosition([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@69a3d1d]" name="testRoboAtDecimalPosition" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.repeatedPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@7d70d1b1]" name="repeatedPatchesTest" class="test.com.tests.cleaningsessions.PositiveTests"/>
+        <method signature="PositiveTests.decimalPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@467aecef]" name="decimalPatchesTest" class="test.com.tests.cleaningsessions.PositiveTests"/>
       </group> <!-- cleaning-positive -->
       <group name="cleaning-negative">
-        <method signature="NegativeTests.negative_RoomSize([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6f195bc3]" name="negative_RoomSize" class="test.com.tests.cleaningsessions.NegativeTests"/>
-        <method signature="NegativeTests.multi_roomDimensions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@631330c]" name="multi_roomDimensions" class="test.com.tests.cleaningsessions.NegativeTests"/>
-        <method signature="NegativeTests.position_Yaxis_GTRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3d921e20]" name="position_Yaxis_GTRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
-        <method signature="NegativeTests.position_NegativeCoords([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@37d31475]" name="position_NegativeCoords" class="test.com.tests.cleaningsessions.NegativeTests"/>
-        <method signature="NegativeTests.invalid_PositionDataTypes([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1d8d30f7]" name="invalid_PositionDataTypes" class="test.com.tests.cleaningsessions.NegativeTests"/>
-        <method signature="NegativeTests.robo_MultiplePositions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@587d1d39]" name="robo_MultiplePositions" class="test.com.tests.cleaningsessions.NegativeTests"/>
-        <method signature="NegativeTests.pathAtTopRightCornerOfRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6b9651f3]" name="pathAtTopRightCornerOfRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
-        <method signature="NegativeTests.robo_CannotClean_OutsideRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@7a9273a8]" name="robo_CannotClean_OutsideRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
-        <method signature="NegativeTests.timeStamp_InvalidTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="timeStamp_InvalidTest" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.negative_RoomSize([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@51e2adc7]" name="negative_RoomSize" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.multi_roomDimensions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@42f93a98]" name="multi_roomDimensions" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.position_Yaxis_GTRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@36b4cef0]" name="position_Yaxis_GTRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.position_NegativeCoords([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@27808f31]" name="position_NegativeCoords" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.invalid_PositionDataTypes([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3e57cd70]" name="invalid_PositionDataTypes" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.robo_MultiplePositions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@58c1670b]" name="robo_MultiplePositions" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.pathAtTopRightCornerOfRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@38bc8ab5]" name="pathAtTopRightCornerOfRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.robo_CannotClean_OutsideRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@26a7b76d]" name="robo_CannotClean_OutsideRoom" class="test.com.tests.cleaningsessions.NegativeTests"/>
+        <method signature="NegativeTests.timeStamp_InvalidTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@e874448]" name="timeStamp_InvalidTest" class="test.com.tests.cleaningsessions.NegativeTests"/>
       </group> <!-- cleaning-negative -->
     </groups>
-    <test name="Base Test Positive Data" duration-ms="2368" started-at="2021-09-15T21:20:57 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Base Test Positive Data" duration-ms="58" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.PositiveTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@396f6598]" name="setReporter" is-config="true" duration-ms="13" started-at="2021-09-15T21:20:57 BST" finished-at="2021-09-15T21:20:57 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@394e1a0f]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@479f2dc2]]>
+                <![CDATA[org.testng.TestRunner@7884031f]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="testBaseCase([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@396f6598]" name="testBaseCase" duration-ms="2063" started-at="2021-09-15T21:20:57 BST" data-provider="baseData" finished-at="2021-09-15T21:20:59 BST">
+        <test-method status="SKIP" signature="testBaseCase([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@394e1a0f]" name="testBaseCase" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="baseData" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@33bc72d1]]>
+                <![CDATA[[Ljava.lang.String;@23367705]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBaseCase -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@396f6598]" name="flushReporter" is-config="true" duration-ms="262" started-at="2021-09-15T21:20:59 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@394e1a0f]" name="flushReporter" is-config="true" duration-ms="-1631745779759" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
     </test> <!-- Base Test Positive Data -->
-    <test name="Rectangular Room Test" duration-ms="88" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Rectangular Room Test" duration-ms="4" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.PositiveTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@78e67e0a]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@bd8db5a]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@dab48d3]]>
+                <![CDATA[org.testng.TestRunner@2dd8444f]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="testRectangularRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@78e67e0a]" name="testRectangularRoom" duration-ms="51" started-at="2021-09-15T21:21:00 BST" data-provider="rectangleRoom" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="testRectangularRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@bd8db5a]" name="testRectangularRoom" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="rectangleRoom" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@6fd5717c]]>
+                <![CDATA[[Ljava.lang.String;@1cbfcecf]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangularRoom -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@78e67e0a]" name="flushReporter" is-config="true" duration-ms="34" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@bd8db5a]" name="flushReporter" is-config="true" duration-ms="-1631745779790" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
     </test> <!-- Rectangular Room Test -->
-    <test name="Intermidetiate Position Test" duration-ms="81" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Intermidetiate Position Test" duration-ms="3" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.PositiveTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@4b553d26]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@69a3d1d]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@58a2b4c]]>
+                <![CDATA[org.testng.TestRunner@66e9364d]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="testRoboAtDecimalPosition([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@4b553d26]" name="testRoboAtDecimalPosition" duration-ms="48" started-at="2021-09-15T21:21:00 BST" data-provider="positionDecimals" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="testRoboAtDecimalPosition([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@69a3d1d]" name="testRoboAtDecimalPosition" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="positionDecimals" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@7ce7e83c]]>
+                <![CDATA[[Ljava.lang.String;@57455687]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRoboAtDecimalPosition -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@4b553d26]" name="flushReporter" is-config="true" duration-ms="32" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@69a3d1d]" name="flushReporter" is-config="true" duration-ms="-1631745779803" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
     </test> <!-- Intermidetiate Position Test -->
-    <test name="Repeated Patches Test" duration-ms="77" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Repeated Patches Test" duration-ms="4" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.PositiveTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@2a556333]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@7d70d1b1]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7159a5cd]]>
+                <![CDATA[org.testng.TestRunner@35f7f732]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="repeatedPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@2a556333]" name="repeatedPatchesTest" duration-ms="46" started-at="2021-09-15T21:21:00 BST" data-provider="repeatedPatches" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="repeatedPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@7d70d1b1]" name="repeatedPatchesTest" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="repeatedPatches" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@23811a09]]>
+                <![CDATA[[Ljava.lang.String;@4884225]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repeatedPatchesTest -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@2a556333]" name="flushReporter" is-config="true" duration-ms="30" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@7d70d1b1]" name="flushReporter" is-config="true" duration-ms="-1631745779813" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
     </test> <!-- Repeated Patches Test -->
-    <test name="Decimal Patches Test" duration-ms="78" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Decimal Patches Test" duration-ms="3" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.PositiveTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@3dfc5fb8]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@467aecef]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4f966719]]>
+                <![CDATA[org.testng.TestRunner@65b0e151]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="decimalPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@3dfc5fb8]" name="decimalPatchesTest" duration-ms="50" started-at="2021-09-15T21:21:00 BST" data-provider="decimalPatches" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@467aecef]" name="flushReporter" is-config="true" duration-ms="-1631745779824" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+        <test-method status="SKIP" signature="decimalPatchesTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@467aecef]" name="decimalPatchesTest" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="decimalPatches" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@75e710b]]>
+                <![CDATA[[Ljava.lang.String;@549f431d]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- decimalPatchesTest -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.PositiveTests@3dfc5fb8]" name="flushReporter" is-config="true" duration-ms="26" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.PositiveTests -->
     </test> <!-- Decimal Patches Test -->
-    <test name="Invaid Room Size Tests" duration-ms="56" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Invaid Room Size Tests" duration-ms="4" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6f195bc3]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@51e2adc7]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@18ac53e8]]>
+                <![CDATA[org.testng.TestRunner@352c6f9c]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="negative_RoomSize([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6f195bc3]" name="negative_RoomSize" duration-ms="28" started-at="2021-09-15T21:21:00 BST" data-provider="roomSizeNil" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@51e2adc7]" name="flushReporter" is-config="true" duration-ms="-1631745779836" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+        <test-method status="SKIP" signature="negative_RoomSize([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@51e2adc7]" name="negative_RoomSize" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="roomSizeNil" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@31133b6e]]>
+                <![CDATA[[Ljava.lang.String;@45319d0]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negative_RoomSize -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6f195bc3]" name="flushReporter" is-config="true" duration-ms="24" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- Invaid Room Size Tests -->
-    <test name="Multi Dimensions Room" duration-ms="44" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Multi Dimensions Room" duration-ms="3" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@631330c]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="multi_roomDimensions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@42f93a98]" name="multi_roomDimensions" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="multiRoomDimension" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4ca8dbfa]]>
+                <![CDATA[[Ljava.lang.String;@547ad232]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="multi_roomDimensions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@631330c]" name="multi_roomDimensions" duration-ms="16" started-at="2021-09-15T21:21:00 BST" data-provider="multiRoomDimension" finished-at="2021-09-15T21:21:00 BST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@7de843ef]]>
-              </value>
-            </param>
-          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multi_roomDimensions -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@631330c]" name="flushReporter" is-config="true" duration-ms="25" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@42f93a98]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@655595ef]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@42f93a98]" name="flushReporter" is-config="true" duration-ms="-1631745779849" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- Multi Dimensions Room -->
-    <test name="Y Location Outside Room" duration-ms="50" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Y Location Outside Room" duration-ms="2" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3d921e20]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@36b4cef0]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7063686f]]>
+                <![CDATA[org.testng.TestRunner@497a7c86]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="position_Yaxis_GTRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3d921e20]" name="position_Yaxis_GTRoom" duration-ms="25" started-at="2021-09-15T21:21:00 BST" data-provider="yOutsideRoom" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@36b4cef0]" name="flushReporter" is-config="true" duration-ms="-1631745779858" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+        <test-method status="SKIP" signature="position_Yaxis_GTRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@36b4cef0]" name="position_Yaxis_GTRoom" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="yOutsideRoom" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@1b7cae6f]]>
+                <![CDATA[[Ljava.lang.String;@78f9b080]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- position_Yaxis_GTRoom -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3d921e20]" name="flushReporter" is-config="true" duration-ms="23" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- Y Location Outside Room -->
-    <test name="Negative Position Test" duration-ms="37" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Negative Position Test" duration-ms="3" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@37d31475]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@27808f31]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@c3177d5]]>
+                <![CDATA[org.testng.TestRunner@7ab681ed]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="position_NegativeCoords([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@37d31475]" name="position_NegativeCoords" duration-ms="17" started-at="2021-09-15T21:21:00 BST" data-provider="positionNegative" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@27808f31]" name="flushReporter" is-config="true" duration-ms="-1631745779869" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+        <test-method status="SKIP" signature="position_NegativeCoords([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@27808f31]" name="position_NegativeCoords" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="positionNegative" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@442f92e6]]>
+                <![CDATA[[Ljava.lang.String;@4b863ac4]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- position_NegativeCoords -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@37d31475]" name="flushReporter" is-config="true" duration-ms="20" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- Negative Position Test -->
-    <test name="Invalid Data Types for Position Test" duration-ms="35" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Invalid Data Types for Position Test" duration-ms="2" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1d8d30f7]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3e57cd70]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@76f856a8]]>
+                <![CDATA[org.testng.TestRunner@829e727]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="invalid_PositionDataTypes([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1d8d30f7]" name="invalid_PositionDataTypes" duration-ms="15" started-at="2021-09-15T21:21:00 BST" data-provider="validDataTypesPosition" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="invalid_PositionDataTypes([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3e57cd70]" name="invalid_PositionDataTypes" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="validDataTypesPosition" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@342726f1]]>
+                <![CDATA[[Ljava.lang.String;@396ba9e1]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalid_PositionDataTypes -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1d8d30f7]" name="flushReporter" is-config="true" duration-ms="19" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@3e57cd70]" name="flushReporter" is-config="true" duration-ms="-1631745779881" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- Invalid Data Types for Position Test -->
-    <test name="Robot Multiple Positions test" duration-ms="40" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Robot Multiple Positions test" duration-ms="3" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="robo_MultiplePositions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@587d1d39]" name="robo_MultiplePositions" duration-ms="16" started-at="2021-09-15T21:21:00 BST" data-provider="roboAtMultiplePositions" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@58c1670b]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@4ab550d5]]>
+                <![CDATA[org.testng.TestRunner@44c3c5ac]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- robo_MultiplePositions -->
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@587d1d39]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7c853486]]>
-              </value>
-            </param>
-          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@587d1d39]" name="flushReporter" is-config="true" duration-ms="23" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="robo_MultiplePositions([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@58c1670b]" name="robo_MultiplePositions" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="roboAtMultiplePositions" finished-at="2021-09-15T23:42:59 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@75cd25a3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- robo_MultiplePositions -->
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@58c1670b]" name="flushReporter" is-config="true" duration-ms="-1631745779891" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- Robot Multiple Positions test -->
-    <test name="Robot Traversing TOP Right of the Room" duration-ms="66" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Robot Traversing TOP Right of the Room" duration-ms="3" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6b9651f3]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@38bc8ab5]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@174e1b69]]>
+                <![CDATA[org.testng.TestRunner@3c69e66f]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="pathAtTopRightCornerOfRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6b9651f3]" name="pathAtTopRightCornerOfRoom" duration-ms="15" started-at="2021-09-15T21:21:00 BST" data-provider="pathAtTopRightCornerOfRoom" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@38bc8ab5]" name="flushReporter" is-config="true" duration-ms="-1631745779901" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+        <test-method status="SKIP" signature="pathAtTopRightCornerOfRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@38bc8ab5]" name="pathAtTopRightCornerOfRoom" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="pathAtTopRightCornerOfRoom" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@65ec8b24]]>
+                <![CDATA[[Ljava.lang.String;@d1fdcee]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pathAtTopRightCornerOfRoom -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@6b9651f3]" name="flushReporter" is-config="true" duration-ms="49" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- Robot Traversing TOP Right of the Room -->
-    <test name="Robot Instructed to clean Outside Room test" duration-ms="29" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="Robot Instructed to clean Outside Room test" duration-ms="4" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="robo_CannotClean_OutsideRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@7a9273a8]" name="robo_CannotClean_OutsideRoom" duration-ms="13" started-at="2021-09-15T21:21:00 BST" data-provider="robo_CannotClean_OutsideRoom" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@26a7b76d]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@7aead3af]]>
+                <![CDATA[org.testng.TestRunner@105eb090]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReporter -->
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@26a7b76d]" name="flushReporter" is-config="true" duration-ms="-1631745779914" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReporter -->
+        <test-method status="SKIP" signature="robo_CannotClean_OutsideRoom([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@26a7b76d]" name="robo_CannotClean_OutsideRoom" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="robo_CannotClean_OutsideRoom" finished-at="2021-09-15T23:42:59 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@21840175]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- robo_CannotClean_OutsideRoom -->
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@7a9273a8]" name="setReporter" is-config="true" duration-ms="0" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1046498a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@7a9273a8]" name="flushReporter" is-config="true" duration-ms="16" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReporter -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- Robot Instructed to clean Outside Room test -->
-    <test name="TimeStamp Test" duration-ms="69" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+    <test name="TimeStamp Test" duration-ms="3" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
       <class name="test.com.tests.cleaningsessions.NegativeTests">
-        <test-method status="PASS" signature="setRepoFolder()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="setRepoFolder" is-config="true" duration-ms="495" started-at="2021-09-15T21:20:57 BST" finished-at="2021-09-15T21:20:57 BST">
+        <test-method status="PASS" signature="setRepoFolder()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@e874448]" name="setRepoFolder" is-config="true" duration-ms="539" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setRepoFolder -->
-        <test-method status="PASS" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="FAIL" signature="setReporter(org.testng.ITestContext)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@e874448]" name="setReporter" is-config="true" duration-ms="1" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@243f003c]]>
+                <![CDATA[org.testng.TestRunner@42006732]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReporter -->
-        <test-method status="PASS" signature="timeStamp_InvalidTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="timeStamp_InvalidTest" duration-ms="38" started-at="2021-09-15T21:21:00 BST" data-provider="timeStamp_InvalidTest" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="timeStamp_InvalidTest([Ljava.lang.String;)[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@e874448]" name="timeStamp_InvalidTest" duration-ms="0" started-at="2021-09-15T23:42:59 BST" data-provider="timeStamp_InvalidTest" finished-at="2021-09-15T23:42:59 BST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@4038cd3a]]>
+                <![CDATA[[Ljava.lang.String;@7388c24c]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.com.controller.ExtentUtils.setTest(ExtentUtils.java:31)
+at test.com.controller.Runner.setReporter(Runner.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timeStamp_InvalidTest -->
-        <test-method status="PASS" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@1500955a]" name="flushReporter" is-config="true" duration-ms="30" started-at="2021-09-15T21:21:00 BST" finished-at="2021-09-15T21:21:00 BST">
+        <test-method status="SKIP" signature="flushReporter()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@e874448]" name="flushReporter" is-config="true" duration-ms="-1631745779923" started-at="2021-09-15T23:42:59 BST" finished-at="1970-01-01T01:00:00 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReporter -->
+        <test-method status="PASS" signature="killThreadLocal()[pri:0, instance:test.com.tests.cleaningsessions.NegativeTests@e874448]" name="killThreadLocal" is-config="true" duration-ms="0" started-at="2021-09-15T23:42:59 BST" finished-at="2021-09-15T23:42:59 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killThreadLocal -->
       </class> <!-- test.com.tests.cleaningsessions.NegativeTests -->
     </test> <!-- TimeStamp Test -->
   </suite> <!-- Robot Cleaning Suite -->

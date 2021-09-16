@@ -4,29 +4,12 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
-import org.testng.ITestContext;
 import org.testng.annotations.*;
-import org.testng.asserts.SoftAssert;
-
-import  io.restassured.RestAssured;
-import test.com.controller.ExtentUtils;
 import test.com.controller.Runner;
 import test.com.data.cleaning.PositiveDataProviders;
-import test.com.objects.CleaningSessions;
+
 
 public class PositiveTests extends Runner {
-
-     @BeforeTest
-     public void setReporter(ITestContext context){
-
-         repo.setTest(context.getCurrentXmlTest().getName());
-     }
-
-     @AfterTest
-     public void flushReporter(){
-         repo.getReports().endTest(repo.getTest());
-         repo.getReports().flush();
-     }
 
 
 
@@ -42,7 +25,6 @@ public class PositiveTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_CREATED)
                     .extract().response();
 
 
@@ -50,7 +32,7 @@ public class PositiveTests extends Runner {
             compareResult(response.jsonPath().getString("coords").replaceAll(" ",""),data[2]);
         }catch(Exception e){
             //TestNG Reporter
-               softAssert.fail("The Test failed without a response::"+e.getMessage());
+            repo.reportFail("The Test failed without a response::"+e.getMessage());
         }
     }
 
@@ -65,7 +47,6 @@ public class PositiveTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_CREATED)
                     .extract().response();
 
 
@@ -73,7 +54,7 @@ public class PositiveTests extends Runner {
             compareResult(response.jsonPath().getString("coords").replaceAll(" ",""),data[2]);
         }catch(Exception e){
             //TestNG Reporter
-            softAssert.fail("The Test failed without a response::"+e.getMessage());
+            repo.reportFail("The Test failed without a response::"+e.getMessage());
         }
     }
 
@@ -87,7 +68,6 @@ public class PositiveTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_CREATED)
                     .extract().response();
 
 
@@ -95,7 +75,7 @@ public class PositiveTests extends Runner {
             compareResult(response.jsonPath().getString("coords").replaceAll(" ",""),data[2]);
         }catch(Exception e){
             //TestNG Reporter
-            softAssert.fail("The Test failed without a response::"+e.getMessage());
+            repo.reportFail("The Test failed without a response::"+e.getMessage());
         }
     }
 
@@ -110,7 +90,6 @@ public class PositiveTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_CREATED)
                     .extract().response();
 
             compareResult(response.jsonPath().getString("patches"),data[3]);
@@ -134,7 +113,6 @@ public class PositiveTests extends Runner {
                     .when()
                     .post(data[1])
                     .then()
-                    .statusCode(HttpStatus.SC_CREATED)
                     .extract().response();
 
             compareResult(response.jsonPath().getString("patches"),data[3]);
@@ -151,6 +129,7 @@ public class PositiveTests extends Runner {
     private void compareResult(String actual, String expected) {
          if(expected.equalsIgnoreCase(actual)){
              repo.reportPass("Actual::"+actual+" matches with the expected::"+expected);
+
          }else{
              repo.reportFail("Actual::"+actual+" does matches with the exepected - Run Again ::"+expected);
          }

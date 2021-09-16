@@ -1,22 +1,38 @@
 package test.com.controller;
 
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import org.apache.http.HttpStatus;
-import org.testng.annotations.BeforeSuite;
+import org.testng.ITestContext;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 import test.com.objects.CleaningSessions;
 
 
 public class Runner {
     public SoftAssert softAssert =new SoftAssert();
-    public ExtentUtils repo = ExtentUtils.getInstance();
+    public  ExtentUtils repo = ExtentUtils.getInstance();;
 
     @BeforeSuite
     public void setRepoFolder(){
         repo.setReports();
         RestAssured.baseURI= CleaningSessions.BASE_URI;
+    }
+
+    @BeforeMethod
+    public void setReporter(ITestContext context){
+
+        repo.setTest(context.getCurrentXmlTest().getName());
+
+    }
+
+    @AfterMethod
+    public void flushReporter(){
+        repo.getReports().endTest(repo.getTest());
+        repo.getReports().flush();
+    }
+
+    @AfterSuite
+    public void killThreadLocal(){
+        repo.getInstance().removeThreadLocals();
     }
 
     public static void main(String[] args) {
