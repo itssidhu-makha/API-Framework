@@ -19,7 +19,7 @@ public class ExtentUtils {
         SimpleDateFormat format = new SimpleDateFormat("MMddyyyy_HHmmss");
 
         String time =format.format(Calendar.getInstance().getTime());
-        ExtentReports reporter = new ExtentReports(System.getProperty("user.dir")+"//reports//+"+time+"//ExtentReports.html",false, NetworkMode.ONLINE);
+        ExtentReports reporter = new ExtentReports(System.getProperty("user.dir")+"//reports//"+time+"//ExtentReports.html",false, NetworkMode.ONLINE);
         reports.set(reporter);
     }
 
